@@ -1,0 +1,46 @@
+[
+  {
+    "client": "desktop", 
+    "example_pages": [
+      "http://whankimuseum.org/", 
+      "https://agrocentrum.sklep.pl/", 
+      "https://arbodienst.nl/", 
+      "https://bancodino.com/", 
+      "https://barconvent.co.uk/", 
+      "https://bartenderbar.dk/", 
+      "https://bikedna.ch/", 
+      "https://bisti.ca/", 
+      "https://bitsandcream.com/", 
+      "https://boardroomlimited.com.au/", 
+      "https://ginbox.fr/", 
+      "https://grignotiere.ma/", 
+      "https://hcandersensmalerfirma.dk/", 
+      "https://heritage-digitaltransitions.com/", 
+      "https://interreg-euro-med.eu/"
+    ], 
+    "imgs": "276", 
+    "pages": "37"
+  }, 
+  {
+    "client": "mobile", 
+    "example_pages": [
+      "https://agrocentrum.sklep.pl/", 
+      "https://arbodienst.nl/", 
+      "https://bancodino.com/", 
+      "https://barconvent.co.uk/", 
+      "https://bartenderbar.dk/", 
+      "https://betcrisafiliados.com/", 
+      "https://bikedna.ch/", 
+      "https://bitsandcream.com/", 
+      "https://blackrockwheels.com.au/", 
+      "https://bududub.cz/", 
+      "https://frutaoficina.disfrutaverdura.com/", 
+      "https://ginbox.fr/", 
+      "https://grignotiere.ma/", 
+      "https://hcandersensmalerfirma.dk/", 
+      "https://heritage-digitaltransitions.com/"
+    ], 
+    "imgs": "268", 
+    "pages": "48"
+  }
+]
