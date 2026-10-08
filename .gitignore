@@ -1,0 +1,4 @@
+.venv/
+out/*.png
+!out/review/
+__pycache__/
