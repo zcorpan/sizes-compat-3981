@@ -110,6 +110,18 @@ Manual review of the 23 changed pages:
 | No visible change | 4 | 0 | 4 |
 | Not assessable (consent dialog, blank page) | 0 | 3 | 3 |
 
+Extrapolation to all 14,605,919 mobile root pages, weighting each stratum by its size in the run
+`sample.sql` drew from (definite 11,215, maybe 62,796; `impact-results-sampling-frame.csv`, which
+is `impact.sql` without the `sizesParseError` exclusion) and assuming unflagged pages are
+unaffected. The intervals are rough: exact binomial 95% intervals per stratum, summed.
+
+| Verdict | Estimated pages | Share | Rough 95% interval |
+|---|---|---|---|
+| Broken | 112 | 0.0008% | 0.00002%–0.020% |
+| Worse | 740 | 0.0051% | 0.0001%–0.028% |
+| Improved | 112 | 0.0008% | 0.00002%–0.020% |
+| Neutral | 7,020 | 0.048% | 0.024%–0.085% |
+
 - Broken: doucujte.cz uses `srcset="icon@2x.png 2w" sizes="1px"`; the icons render 1×1.
 - Worse: kral-buch.at has no `sizes` and `1200w` on every image regardless of real size, so a 45px
   portrait becomes 360px wide; memoiresdeladistribution.fr's logos grow past their card.
