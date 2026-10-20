@@ -161,3 +161,7 @@ python3 -m venv .venv && .venv/bin/pip install playwright pillow && .venv/bin/pl
 
 Live pages change, so a rerun of the emulation won't match exactly. Full-page screenshots
 (`out/NNN-{A,A2,B}.png`, 632 MB) aren't committed; `emulate.py` regenerates them.
+
+Browser output was scrubbed for publishing with `scrub.py` (`python3 scrub.py 'sample.json,impact-results*.csv,out/pages.csv' 'out/results.jsonl' <IP>`):
+the tester's IP replaced with `[client IP]`, and query strings and fragments stripped from URLs
+other than crawl URLs. The analysis outputs are unchanged.
